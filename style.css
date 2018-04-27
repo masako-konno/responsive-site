@@ -1,0 +1,106 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #9A9A9A;
+  font-size: 1.4rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #FFFFFF;
+  padding: 0; }
+
+#header {
+  background-image: url("./images/header.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 100%; }
+
+@media screen and (min-width: 1025px) {
+  height: 500px; }
+@media (min-width: 769px) and (max-width: 1024px) {
+  #header {
+    height: 500px; } }
+@media (max-width: 768px) {
+  #header {
+    height: 250px; } }
+#text h2, h3 {
+  text-align: center; }
+  #text h2 font, h3 font {
+    weight: bold;
+    size: 2.0rem; }
+
+#text h2 {
+  color: #9A9A9A;
+  margin: 30px; }
+
+#text h3 {
+  background-color: #DDDDDD;
+  color: #ACACAC;
+  padding: 20px; }
+
+.container {
+  overflow: hidden;
+  *zoom: 1;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between; }
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      max-width: 100%; } }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .container {
+      width: 100%; } }
+  @media screen and (min-width: 1025px) {
+    .container {
+      margin: 0 10px; } }
+
+.text-box p {
+  color: #FFFFFF;
+  text-align: center;
+  margin: 30px; }
+  .text-box p font {
+    size: 2.0rem;
+    weight: bold; }
+
+.text-box {
+  margin: 10px;
+  padding: 0;
+  width: 30%;
+  background-color: #9A9A9A; }
+  @media screen and (max-width: 768px) {
+    .text-box {
+      margin: 30px 30px;
+      width: 85%; } }
+  .text-box .container {
+    overflow: hidden;
+    *zoom: 1; }
+
+#button {
+  background-color: #FFFFFF;
+  text-align: center; }
+  #button p {
+    color: #9A9A9A;
+    font-size: 1.5rem;
+    font-weight: bold; }
+
+.button-box {
+  color: #FFFFFF;
+  background-color: #9A9A9A;
+  -moz-border-radius: 5px / 5px;
+  -webkit-border-radius: 5px 5px;
+  border-radius: 5px / 5px;
+  padding: 10px 30px 10px 30px;
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: central;
+  width: 200px; }
+
+/*# sourceMappingURL=style.css.map */
